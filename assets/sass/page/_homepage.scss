@@ -30,36 +30,27 @@
     }
   }
   @media only screen and (max-width: 992px) {
-     h1 {
-      font-size: 42px;
+    #home{
+      height: 90vh;
+    }
+    .home .herotext h1 {
+      font-size: 30px;
+      font-weight:300;
     }
   }
 
 
-  @media (max-width: 992px) {
-    #home{
-        height: 90vh; 
-    }
-
-     h1 {
-        font-size: 45px;
-        font-weight: 200;
-    
-    }
-}
-
-
-  @media (max-width: 768px) {
-    #hero {
+  @media screen and (max-width: 768px) {
+    #home {
         height: 80vh;
   
     }
-    .herotext{
-      padding: 0px 15px;
+    .home .herotext{
+      padding: 160px 15px;
       width: 60%;
     
 
-    .herotext h1 {
+    .home .herotext h1 {
         font-size: 15px;
         font-weight:100;
 
@@ -121,6 +112,7 @@
                   border-radius: 0;
                   border: 1px solid transparent;
                   width: 100%;
+                  margin-bottom: 10px;
     
           .cardimg img{
                    width: 100%;
@@ -154,6 +146,7 @@
                 }
     
             }}
+           
 
     // help//
 

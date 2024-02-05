@@ -86,14 +86,26 @@ border: none;
 
  }
   }
+   @media only screen and (max-width: 1200px) {
+        .logo{
+            gap: 10px;}
+
+            .nav_list{
+                font-size: 14px;
+                gap: 14px;
+            }
+            
+            .phone p{display: none;}
+        }
+    
 
   @media only screen and (min-width: 992px) {
         .nav { display: flex;
             justify-content: space-between;
             gap: 5px;}
         .nav_list{
-         font-size: 15px;
-         gap: 10px;
+         font-size: 9px;
+         gap: 6px;
             }
         .phone{ justify-content: center
         ;
@@ -104,23 +116,19 @@ border: none;
 
 @media screen and (max-width: 992px) {
    .logo .nav_list{
-      display: none !important;
+      display: none;
+    }
+    .phone p{
+        display: none;
     }
   
     .menu{
-      display: block !important;
+      display: block;
     }
   }
 
-    @media  screen and (max-width:768px) {
-        nav {
-            .phone {
-                button {
-                    display: none;
-                }
-            }
-        }
-    }
+
+    
    
 
 
